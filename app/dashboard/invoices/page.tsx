@@ -33,5 +33,5 @@ export default async function Page({ searchParams, }: { searchParams?: {
          {<Pagination totalPages={totalPages} />}
       </div>
     </div>
-  )
+  );
 }
